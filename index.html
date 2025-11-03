@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colin's Mahjong Journey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<button id = 'navigationButton'>Journal Entries</button>
+<script>
+    const navigationButton = document.getElementById('navigationButton')
+    navigationButton.addEventListener('click', function(){
+        window.location.href = 'content.html';
+    })
+</script>
+
+<body>
+
+    <h1 style = "font-size: 40px;">Colin's Mahjong Journal</h1>
+
+    <div class="card">
+        <h3>Introduction</h3>
+        <p>Welcome to my webiste! My name is Colin Chu and I am a junior student studying Data Science and 
+            Mathematics at Northeastern. In this website, I will share some parts of my Mahjong journey 
+            since I moved to the US.</p>
+        <p>I was born and raised in Hong Kong, and I moved to New York in 2020 when I was 15. When I lived in 
+            Hong Kong, I used to visit my cousins and grandparents who lived in New York every summer, and I'd 
+            watch my mom play Mahjong with my aunts and Grandma all the time, and I was always interested. I played
+            occassionally with my parents and my brother in Hong Kong, but never too seriously. Then when I started
+            going to college, my friends wanted to learn how to play Mahjong and I also wanted to get back into playing,
+            so when I moved off-campus I bought a mahjong table and a set of tiles. Ever since, I've had weekly
+            Mahjong nights at my apartment, and we always have groups of people come over to play and talk. I also started
+            finding and bringing friends to Mahjong events and parlors hosted in New York. I find Mahjong to be a great 
+            activity to slow down on the weekends and catch up with some friends, and sometimes I think this bit of
+            fresh air is much needed to help us out!
+        </p>
+    </div>
+
+    <div class="image_container">
+        <img src="mahjong_oshawott.jpg" alt="Oshawott" width="400">
+        <p>Here is a photo of Oshawott playing Mahjong (Oshawott doesn't know how to play Mahjong)</p>
+    </div>
+    
+    <button id = 'greenButton'>Check out my journal entries!</button>
+    <script>
+        const greenButton = document.getElementById('greenButton')
+        greenButton.addEventListener('click', function(){
+            window.location.href = 'content.html';
+        })
+    </script>
+
+    <div class="card">
+        <h3>Contact Information</h3>
+        <p><a href="mailto:chu.col@northeastern.edu">Email</a></p>
+        <p><a href="https://www.linkedin.com/in/colinchu4/">Linkedin</a></p>
+    </div>
+</body>
+</html>

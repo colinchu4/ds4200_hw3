@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+
+#main {
+    color: red;
+    background-color: beige;
+    width: 500px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.angry_text {
+    color : red;
+    font-weight: bold;
+}
+
+.card {
+    font-family: "Garamond", serif;
+    border: 1px solid black;
+    padding: 10px 20px 10px 20px;
+    background-color: whitesmoke;
+    margin: 20px;
+}
+
+#greenButton {
+    text-align: center;
+    background-color: green;   /* button color */
+    color: white;                /* text color */
+    border: none;
+    padding: 12px 24px;          /* size */
+    font-size: 16px;             /* text size */
+    cursor: pointer;             /* hand cursor on hover */
+}
+
+.image_container {
+    text-align: center; /* centers inline/inline-block elements inside */
+    margin-bottom: 30px; /* optional spacing after */
+}
