@@ -1,3 +1,5 @@
+Website Link: https://colinchu4.github.io/ds4200_hw3/
+
 Styling & Customizations: \
 Card: I created a card class for the introduction and contact sections of my home page, including a grey (smokewhite) background with the Garamond font with a black border and custom margins. \
 Image container: I had an image container class which wraps around images (and captions) to center them and add margins. \
